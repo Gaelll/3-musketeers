@@ -8,6 +8,7 @@ const config = new Conf();
 
 const argv = process.argv.slice(2);
 
+/**calls the function helpers in the file helpers.js*/
 helpers(argv);
 
 const command = {
