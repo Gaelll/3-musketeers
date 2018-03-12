@@ -7,6 +7,7 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
+/** This function does the converion for the currencies*/
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
 
